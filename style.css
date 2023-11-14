@@ -56,6 +56,12 @@ img {
     vertical-align: middle;
     margin-bottom: 20px;
 }
+footer {
+    margin-top: auto;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: double;
+}
 
 .prev, .next {
   cursor: pointer;
