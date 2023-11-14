@@ -31,3 +31,4 @@ Sample textSample textSample textSample textSample textSample textSample textSam
 
 - **Email**: [baracuta@mail.com](mailto:baracuta@mail.com)
 - **Discord**: [baracuta#9401](https://discord.com/baracuta)
+//Note: Haven't messed with this since the rough draft. As you can see, the final version was made significantly more compact and concise.
