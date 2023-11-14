@@ -37,7 +37,7 @@ h2 {
 .mySlides {
   display: none;
   object-fit: contain;
-  width: 700px;
+  width: 1000px;
   height: 700px;
   align-items: center;
 }
