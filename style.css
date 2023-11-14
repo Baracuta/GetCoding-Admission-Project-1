@@ -42,7 +42,8 @@ h2 {
 
 img {
     vertical-align: middle;
-    height: 500px;
+    width: 1000px
+    object-fit: contain;
 }
 
 /* Next & previous buttons */
