@@ -36,9 +36,9 @@ h2 {
 
 .mySlides {
   display: none;
-  object-fit: contain;
+  object-fit: fill;
   width: 700px;
-  max-height: 900px;
+  max-height: 700px;
 }
 
 img {
