@@ -1,11 +1,16 @@
 
 body {
     background-color:rgb(61, 60, 60);
+    padding: 20px;
+}
+.header {
+    padding: 40px
 }
 
 p {
   text-align: center;
   color: white;
+  font-size: larger;
 }
 .welcome {
   font-weight: bolder;
@@ -16,6 +21,7 @@ p {
 h1 {
     text-align:center;
     color: white;
+    background: black;
 }
 em {
   color: darkred;
