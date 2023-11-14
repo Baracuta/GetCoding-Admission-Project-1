@@ -5,8 +5,11 @@ body {
     border-color: black;
     border-radius: 10px;
 }
-.header {
-    padding: 40px
+header {
+    padding: 40px;
+    border-bottom-width: 5px;
+    border-bottom-color: black;
+    border-bottom-style: double;
 }
 
 p {
@@ -36,7 +39,7 @@ h2 {
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 700px;
+  max-width: 500px;
   position: relative;
   margin: auto;
   margin-bottom: 50px;
@@ -45,7 +48,7 @@ h2 {
 .mySlides {
   display: none;
   object-fit: contain;
-  width: 700px;
+  width: 500px;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -54,6 +57,7 @@ h2 {
 img {
     vertical-align: middle;
     margin-bottom: 20px;
+    max-width: 500px;
 }
 footer {
     margin-top: auto;
