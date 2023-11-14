@@ -31,8 +31,10 @@ h2 {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  object-fit: contain;
   position: relative;
   margin: auto;
+  float: right;
 }
 
 /* Hide the images by default */
@@ -42,8 +44,6 @@ h2 {
 
 img {
     vertical-align: middle;
-    width: 1000px
-    object-fit: contain;
 }
 
 /* Next & previous buttons */
