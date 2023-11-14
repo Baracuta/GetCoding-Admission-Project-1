@@ -38,9 +38,9 @@ h2 {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  float: right;
   object-fit: contain;
-  width: 500px;
+  width: 700px;
+  max-height: 900px;
 }
 
 img {
