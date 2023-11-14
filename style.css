@@ -40,6 +40,10 @@ h2 {
   display: none;
 }
 
+img {
+    vertical-align: middle;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
