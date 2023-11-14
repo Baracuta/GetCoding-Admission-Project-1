@@ -3,12 +3,6 @@ body {
     background-color:rgb(61, 60, 60);
 }
 
-img {
-    width: 500px;
-    border-radius: 10px;
-    float: right;
-    margin-left: 10px;
-}
 p {
   text-align: left;
   color: white;
