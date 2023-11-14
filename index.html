@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <script src="project.js"></script>
     <title>Benjamin's Personal Webpage</title>
   </head>
 
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 
   <body>
     <header>
@@ -23,52 +23,59 @@
           I was born and grew up in the small town of Clarenville, Newfoundland
           and Labrador, Canada. I have two brothers: an older brother, Alex, and
           a younger brother, Tim. We all share a love for science-fiction and
-          fantasy passed down to us by our Mom and Dad.
+          fantasy passed down to us by our Mom and Dad. The Lord of the Rings
+          holds a particularly special place in my heart, though I'm also very
+          invested in Dungeons and Dragons. I've always had a love for
+          computers, and even cobbled-together my own through the steady
+          acquisition of new parts over the years, which I installed myself.
+          I've run my computer through its paces, becoming quite the
+          computer-repair-guy (by necessity: I have a bad habit of trying to
+          push it past its limits). More recently, I've finally made the jump
+          from my interests in the hardware side towards the software side,
+          which I plan to make a career in.
         </p>
       </section>
 
-    <div class="slideshow-container">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="Images/Family at Winging it.jpg" style="width: 100%" />
+          <div class="text">Me with my Mom and Brothers</div>
+        </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
-        <img src="Images/Family at Winging it.jpg" style="width:100%">
-        <div class="text">Caption Text</div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="Images/Winter Ben.jpg" style="width: 100%" />
+          <div class="text">I love cold weather</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="Images/Ben and Robert O'Reilley.jpg" style="width: 100%" />
+          <div class="text">Myself and Star Trek actor, Robert O'Reilley</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="Images/Ben In D&D.jpg" style="width: 100%" />
+          <div class="text">I put everything into Dungeons and Dragons</div>
+        </div>
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-        <img src="Images/Winter Ben.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="Images/Ben and Robert O'Reilley.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">4 / 4</div>
-        <img src="Images/Ben In D&D.jpg" style="width:100%">
-        <div class="text">Caption Four</div>
-      </div>
-   
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-
     </main>
 
     <footer>
       <h2>Contact Me</h2>
-      <p> I can be found by email at <em>lordbaracuta90@gmail.com</em></p>
+      <p>I can be found by email at <em>lordbaracuta90@gmail.com</em></p>
       <p>&copy; 2023 GetCoding Admission Project</p>
     </footer>
   </body>
