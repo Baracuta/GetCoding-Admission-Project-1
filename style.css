@@ -2,6 +2,8 @@
 body {
     background-color:rgb(61, 60, 60);
     padding: 20px;
+    border-color: black;
+    border-radius: 10px;
 }
 .header {
     padding: 40px
@@ -21,7 +23,6 @@ p {
 h1 {
     text-align:center;
     color: white;
-    background: black;
 }
 em {
   color: darkred;
@@ -46,6 +47,8 @@ h2 {
   object-fit: contain;
   width: 1000px;
   align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 img {
